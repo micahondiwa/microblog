@@ -3,7 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {% if tittle %}
     <title>{{ title}} - Microblog</title>
+    {% else %}
+    <title>Welcome to Microblog</title>
+    {% endif %}
+
+
 </head>
 <body>
     <h1>Hello, {{ user.username}}</h1>
