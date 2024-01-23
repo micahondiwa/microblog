@@ -1,3 +1,3 @@
 # MICROBLOG
 
-- A full stack flask application
+- A full stack web application with flask
