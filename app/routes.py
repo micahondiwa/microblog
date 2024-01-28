@@ -1,3 +1,4 @@
+"""Routes module"""
 from datetime import datetime, timezone
 from urllib.parse import urlsplit
 from flask import render_template, flash, redirect, url_for, request
